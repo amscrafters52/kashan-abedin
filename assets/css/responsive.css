@@ -1,0 +1,339 @@
+@media only screen and (max-width:480px) {
+    .logo {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .back_home p a {
+        text-decoration: none;
+    }
+
+    .back_home p {
+        text-align: end;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: block;
+    }
+
+    .right_by_text a {
+        text-decoration: none;
+    }
+
+    .feature_sec {
+        padding-top: 21%;
+    }
+
+    .minor_change {
+        font-size: 25px;
+        line-height: 100%;
+    }
+
+    span.divider hr {
+        margin-bottom: 65px;
+    }
+
+    .right_by {
+        padding: 8% 0;
+    }
+
+    .for_mobile_hide {
+        display: block;
+    }
+
+    .for_web_hide {
+        display: none;
+    }
+
+    .text-block-3,
+    .text-block-4 {
+        margin-bottom: 30px;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        background: #cecdcd !important;
+    }
+
+    .owl-theme .owl-nav.disabled+.owl-dots {
+        margin-top: 80px !important;
+        margin-bottom: -35%;
+    }
+
+    .youtube_video iframe {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-3 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .button {
+        margin: 5px 0px;
+    }
+
+    .hideA a {
+        text-decoration: none;
+    }
+
+    .heading-7 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .last_img a img {
+        display: none;
+    }
+
+    .project-link-title {
+        letter-spacing: -0.5px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .w-container {
+        max-width: 728px
+    }
+
+    .back_home p {
+        display: block;
+    }
+
+    .w-hidden-main {
+        display: inherit !important
+    }
+
+    .w-hidden-medium {
+        display: none !important
+    }
+
+    .w-col-medium-1 {
+        width: 8.33333%
+    }
+
+    .w-col-medium-2 {
+        width: 16.6667%
+    }
+
+    .w-col-medium-3 {
+        width: 25%
+    }
+
+    .w-col-medium-4 {
+        width: 33.3333%
+    }
+
+    .w-col-medium-5 {
+        width: 41.6667%
+    }
+
+    .w-col-medium-6 {
+        width: 50%
+    }
+
+    .w-col-medium-7 {
+        width: 58.3333%
+    }
+
+    .w-col-medium-8 {
+        width: 66.6667%
+    }
+
+    .w-col-medium-9 {
+        width: 75%
+    }
+
+    .w-col-medium-10 {
+        width: 83.3333%
+    }
+
+    .w-col-medium-11 {
+        width: 91.6667%
+    }
+
+    .w-col-medium-12 {
+        width: 100%
+    }
+
+    .w-col-stack {
+        width: 100%;
+        left: auto;
+        right: auto
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .w-hidden-main,
+    .w-hidden-medium {
+        display: inherit !important
+    }
+
+    .back_home p {
+        display: block;
+    }
+
+    .w-hidden-small {
+        display: none !important
+    }
+
+    .w-row,
+    .w-container .w-row {
+        margin-left: 0;
+        margin-right: 0
+    }
+
+    .w-col {
+        width: 100%;
+        left: auto;
+        right: auto
+    }
+
+    .w-col-small-1 {
+        width: 8.33333%
+    }
+
+    .w-col-small-2 {
+        width: 16.6667%
+    }
+
+    .w-col-small-3 {
+        width: 25%
+    }
+
+    .w-col-small-4 {
+        width: 33.3333%
+    }
+
+    .w-col-small-5 {
+        width: 41.6667%
+    }
+
+    .w-col-small-6 {
+        width: 50%
+    }
+
+    .w-col-small-7 {
+        width: 58.3333%
+    }
+
+    .w-col-small-8 {
+        width: 66.6667%
+    }
+
+    .w-col-small-9 {
+        width: 75%
+    }
+
+    .w-col-small-10 {
+        width: 83.3333%
+    }
+
+    .w-col-small-11 {
+        width: 91.6667%
+    }
+
+    .w-col-small-12 {
+        width: 100%
+    }
+}
+
+@media screen and (max-width:479px) {
+
+    .homepg_slider {
+        width: 100%;
+        /* Adjust as needed */
+        height: auto;
+        /* Maintain aspect ratio */
+        object-fit: cover;
+        /* Adjust how the image fits in its container */
+    }
+
+    /* Optional: If you want to set fixed dimensions */
+    .homepg_slider {
+        width: 500px;
+        /* Set your desired width */
+        height: 240px;
+        /* Set your desired height */
+        object-fit: cover;
+        /* Adjust how the image fits */
+    }
+
+    .mine_slide .slide img {
+        max-height: 200px !important;
+    }
+
+    .back_home p {
+        display: block;
+    }
+
+    .w-container {
+        max-width: none
+    }
+
+    .w-hidden-main,
+    .w-hidden-medium,
+    .w-hidden-small {
+        display: inherit !important
+    }
+
+    .w-hidden-tiny {
+        display: none !important
+    }
+
+    .w-col {
+        width: 100%
+    }
+
+    .w-col-tiny-1 {
+        width: 8.33333%
+    }
+
+    .w-col-tiny-2 {
+        width: 16.6667%
+    }
+
+    .w-col-tiny-3 {
+        width: 25%
+    }
+
+    .w-col-tiny-4 {
+        width: 33.3333%
+    }
+
+    .w-col-tiny-5 {
+        width: 41.6667%
+    }
+
+    .w-col-tiny-6 {
+        width: 50%
+    }
+
+    .w-col-tiny-7 {
+        width: 58.3333%
+    }
+
+    .w-col-tiny-8 {
+        width: 66.6667%
+    }
+
+    .w-col-tiny-9 {
+        width: 75%
+    }
+
+    .w-col-tiny-10 {
+        width: 83.3333%
+    }
+
+    .w-col-tiny-11 {
+        width: 91.6667%
+    }
+
+    .w-col-tiny-12 {
+        width: 100%
+    }
+}

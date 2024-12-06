@@ -1,0 +1,66 @@
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+    .mine_slide {
+      height: auto; /* Contained height for mobile */
+    }
+  
+    .slider-image {
+      height: auto; /* Allows image to adjust naturally */
+      object-fit: contain; /* Keeps image proportions without cropping */
+    }
+  }
+  /* Modal content container */
+  .modal-content {
+    position: relative;
+    margin: 5% auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 900px;
+    background: #fff; /* Keep the background white */
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Close button */
+  .close {
+    display: inline-block;
+    width: 50px; /* Adjust width as needed */
+    height: 50px;
+    font-size: 18px;
+    color: #000; /* Keep the text color black */
+    background: #fff; /* Keep the background white */
+    border: 1px solid #000; /* Optional: Add a border for visibility */
+    position: absolute;
+    bottom: 15px; /* Position at the bottom */
+    right: 15px; /* Align to the end */
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for close button */
+  .close:hover {
+    background: #f0f0f0; /* Subtle gray background on hover */
+  }
+  @media (max-width: 768px) {
+    iframe{
+      width: 100%;
+      height: 360px;
+      object-fit: cover;
+    }
+  }
+  /* General Section Styling */
+  .section {
+    padding: 20px;
+    background-color: #f9f9f9; /* Optional background color */
+  }
+  
+  .main-container {
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center; /* Center the buttons */
+    gap: 15px; /* Add spacing between buttons */
+  }
+  
+  /* <!-- info btn's start --> */
+  
+  
